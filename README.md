@@ -12,10 +12,10 @@ This repository contains scripts for processing business data from JSON files. T
 ## Files Overview
 
 ### Python Implementation
-- `process_data.py`: Reads JSON files, normalizes phone numbers, removes duplicates, and writes separate JSON files for records with and without emails.
+- `py.py`: Reads JSON files, normalizes phone numbers, removes duplicates, and writes separate JSON files for records with and without emails.
 
 ### JavaScript Implementation
-- `process_data.js`: Similar to the Python version but includes additional functionality for batch processing and sorting by postcode.
+- `py.js`: Similar to the Python version but includes additional functionality for batch processing and sorting by postcode.
 
 ### Output Files
 - `records_with_email.json`: Contains records that include an email address.
@@ -31,7 +31,7 @@ This repository contains scripts for processing business data from JSON files. T
    ```
 2. Run the script:
    ```sh
-   python process_data.py
+   python py.py
    ```
    Modify the `input_directory` variable to specify the directory containing JSON files.
 
@@ -42,7 +42,7 @@ This repository contains scripts for processing business data from JSON files. T
    ```
 2. Run the script:
    ```sh
-   node process_data.js
+   node js.js
    ```
    Modify the `inputDirectory`, `startIndex`, and `endIndex` variables as needed.
 
