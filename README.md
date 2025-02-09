@@ -15,7 +15,7 @@ This repository contains scripts for processing business data from JSON files. T
 - `py.py`: Reads JSON files, normalizes phone numbers, removes duplicates, and writes separate JSON files for records with and without emails.
 
 ### JavaScript Implementation
-- `py.js`: Similar to the Python version but includes additional functionality for batch processing and sorting by postcode.
+- `js.js`: Similar to the Python version but includes additional functionality for batch processing and sorting by postcode.
 
 ### Output Files
 - `records_with_email.json`: Contains records that include an email address.
