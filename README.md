@@ -22,6 +22,18 @@ This repository contains scripts for processing business data from JSON files. T
 - `records_without_email.json`: Contains records that do not have an email address.
 - `all_unique_records.json`: Contains all unique records after deduplication.
 
+## This is data before processing in one of more than three thousand files:
+<img src="https://github.com/roshaanmehar/Business-Data-Processor/blob/main/Screenshot%202025-02-09%20000410.png" width="600">
+
+## This is data in the `allrecordswithoutemails.json` file:
+<img src="https://github.com/roshaanmehar/Business-Data-Processor/blob/main/Screenshot%202025-02-09%20000618.png" width="600">
+
+## This is data after the procesing is done and the duplicates are removed and all attributes for every record are combined on the basis of phone number:
+<img src="https://github.com/roshaanmehar/Business-Data-Processor/blob/main/Screenshot%202025-02-09%20000728.png" width="600">
+
+## When you run the scrpit and do not encounter any fatal errors, you should see output like this on your terminal:
+<img src="https://github.com/roshaanmehar/Business-Data-Processor/blob/main/Screenshot%202025-02-09%20000827.png" width="">
+- The errors are just warnings. None of them are fatal errors or breaking errors. So, no need to worry about them.
 ## Usage
 
 ### Python Script
